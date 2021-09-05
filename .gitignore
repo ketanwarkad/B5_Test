@@ -1,0 +1,6 @@
+app1/__pycache__/
+app1/migrations/__pycache__/
+db.sqlite3
+db_shell.py
+db_shell.py.txt
+first/__pycache__/
