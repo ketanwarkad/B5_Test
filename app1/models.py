@@ -127,4 +127,8 @@ class Pizza(Common_Pizza):
 #     models.CharField(max_length=100)    
 #  adding a new line
 
+class Master(models.Model):
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
+    instrument = models.CharField(max_length=100)
 
