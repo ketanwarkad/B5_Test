@@ -1,4 +1,5 @@
 from django.apps import AppConfig
+# added a new line
 
 
 class App1Config(AppConfig):
