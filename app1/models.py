@@ -123,5 +123,8 @@ class Pizza(Common_Pizza):
     
     toppings = models.ManyToManyField('Topping',related_name='pizzas')
 
-class Test:
-    models.CharField(max_length=100)    
+# class Test:
+#     models.CharField(max_length=100)    
+#  adding a new line
+
+
