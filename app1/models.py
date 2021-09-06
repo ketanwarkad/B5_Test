@@ -127,13 +127,8 @@ class Pizza(Common_Pizza):
 #     models.CharField(max_length=100)    
 #  adding a new line
 
-class f1(models.Model):
+class Master(models.Model):
     first_name = models.CharField(max_length=35)
     last_name = models.CharField(max_length=50,null=True)
     instrument = models.CharField(max_length=500)
-
-class Runner(models.Model):
-    MedalType = models.TextChoices('MedalType', 'GOLD SILVER BRONZE')
-    name = models.CharField(max_length=60)
-    medal = models.CharField(blank=True, choices=MedalType.choices, max_length=10)
 

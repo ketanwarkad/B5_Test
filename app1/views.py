@@ -9,3 +9,10 @@ def func():
 def func():
     for i in range(11):
         print(i)
+
+
+def test1():
+    print("in test 2")
+
+def test2():
+    print("bella ciao")
